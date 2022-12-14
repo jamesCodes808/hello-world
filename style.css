@@ -40,9 +40,20 @@ header h1 {
     margin-left: 45px;
 }
 
+figcaption {
+    padding: 3px;
+    text-align: center;
+}
+
+figure { 
+    width: 100%;
+}
+
+section {
+    width: 100%;
+}
 #hero-container {
     background-color: #AEBDCA;
-    position: relative;
     width: 100%;
     display: inline-block;
 }
@@ -54,8 +65,8 @@ header h1 {
 }
 
 #hero-text-container {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    text-align: center;
 }
 
 .caption {
@@ -65,7 +76,8 @@ header h1 {
 .section-container {
     background-color: #E8DFCA;
     display: inline-block;
-    width: 100%;
+    width: 30%;
+    margin: 10px 10px;
 }
 
 .feature-image-container {
