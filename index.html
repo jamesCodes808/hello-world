@@ -6,51 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Game Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
-        <h1>Game title here</h1>
+        <h1>Adventure Guy</h1>
         <nav>
             <ul>
-                <li><a href="https://goodpudding.github.io/hello-world">Trey Young</a></li>
                 <li><a href="https://jamesCodes808.github.io/hello-world">Home</a></li>
+                <li><a href="https://goodpudding.github.io/hello-world">Trey Young</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
+        <section class="hero-container">
+            <section id="hero-image-container">
+                <a
+                    href='https://www.freepik.com/free-vector/arcade-game-world-pixel-scene_4815143.htm#query=pixel%20game%20character&position=0&from_view=keyword'>
+                    <!-- This image uses a figure and figcaption but needs css to tweak caption on to the image -->
+                    <figure>
+                        <img id="hero-image" src="pixelbackground.jpg"
+                            alt="Image of a pixel backdrop with a mountain" />
+                        <figcaption style="font-size:x-small">image from freepik.com</figcaption>
+                    </figure>
+                </a>
+            </section>
+
+            <section id="hero-text-container">
+                <h2>Adventure Awaits!</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis mollitia rem, aliquid in eligendi
+                    tenetur maxime distinctio excepturi omnis blanditiis culpa quam et consequatur dicta neque officia
+                    doloremque impedit modi!</p>
+            </section>
+        </section>
+
         <section>
 
-            <a
-                href='https://www.freepik.com/free-vector/arcade-game-world-pixel-scene_4815143.htm#query=pixel%20game%20character&position=0&from_view=keyword'>
-                <!-- This image uses a figure and figcaption but needs css to tweak caption on to the image -->
-                <figure>
-                    <img src="pixelbackground.jpg" alt="Image of a pixel backdrop with a mountain" width="70%"
-                        height="70%" />
-                    <figcaption style="font-size:x-small">image from freepik.com</figcaption>
-                </figure>
-            </a>
-        </section>
-        <section>
-            <h2>Adventure Awaits!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis mollitia rem, aliquid in eligendi
-                tenetur maxime distinctio excepturi omnis blanditiis culpa quam et consequatur dicta neque officia
-                doloremque impedit modi!</p>
-        </section>
-        <section>
-
-            <section>
-                <section>
+            <section class="section-container">
+                <section class="feature-image-container">
                     <a href="https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis">
-                        <img src="farmeridle.png"
-                            alt="picture of a farmer adventurer with brown hair, white shirt, jeans, leather gloves and boots"
-                            width="10%" height="10%" />
-                        <p style="font-size:x-small">image from opengameart.org</p>
+                        <img class="feature-image" src="farmeridle.png"
+                            alt="picture of a farmer adventurer with brown hair, white shirt, jeans, leather gloves and boots" />
+                        <p class="caption">image from opengameart.org</p>
                     </a>
                 </section>
-                <section>
+                <section class="feature-text-container">
                     <h4>Feature</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nulla omnis voluptates
                         aperiam
@@ -60,14 +66,14 @@
                 </section>
             </section>
 
-            <section>
-                <section>
+            <section class="section-container">
+                <section class="feature-image-container">
                     <a href="https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis">
-                        <img src="campfire.png" alt="Picture of a pixelated campfire" width="10%" height="10%" />
-                        <p style="font-size:x-small">image from opengameart.org</p>
+                        <img class="feature-image" src="campfire.png" alt="Picture of a pixelated campfire" />
+                        <p class="caption">image from opengameart.org</p>
                     </a>
                 </section>
-                <section>
+                <section class="feature-text-container">
                     <h4>Feature</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nulla omnis voluptates
                         aperiam
@@ -77,14 +83,14 @@
                 </section>
             </section>
 
-            <section>
-                <section>
+            <section class="section-container">
+                <section class="feature-image-container">
                     <a href="https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis">
-                        <img src="heart.png" alt="picture of a life heart in a container" width="10%" height="10%" />
-                        <p style="font-size:x-small">image from opengameart.org</p>
+                        <img class="feature-image" src="heart.png" alt="picture of a life heart in a container" />
+                        <p class="caption">image from opengameart.org</p>
                     </a>
                 </section>
-                <section>
+                <section class="feature-text-container">
                     <h4>Feature</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nulla omnis voluptates
                         aperiam
@@ -94,15 +100,15 @@
                 </section>
             </section>
 
-            <section>
-                <section>
+            <section class="section-container">
+                <section class="feature-image-container">
                     <a href="https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis">
-                        <img src="potionbottle.png" alt="picture of blue liquid in a glass potion bottle" width="10%"
-                            height="10%" />
-                        <p style="font-size:x-small">image from opengameart.org</p>
+                        <img class="feature-image" src="potionbottle.png"
+                            alt="picture of blue liquid in a glass potion bottle" />
+                        <p class="caption">image from opengameart.org</p>
                     </a>
                 </section>
-                <section>
+                <section class="feature-text-container">
                     <h4>Feature</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nulla omnis voluptates
                         aperiam
@@ -112,15 +118,15 @@
                 </section>
             </section>
 
-            <section>
-                <section>
+            <section class="section-container">
+                <section class="feature-image"-container>
                     <a href="https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis">
-                        <img src="hammer.png" alt="picture of a great hammer with a long handle" width="10%"
-                            height="10%" />
-                        <p style="font-size:x-small">image from opengameart.org</p>
+                        <img class="feature-image" src="hammer.png"
+                            alt="picture of a great hammer with a long handle" />
+                        <p class="caption">image from opengameart.org</p>
                     </a>
                 </section>
-                <section>
+                <section class="feature-text-container">
                     <h4>Feature</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nulla omnis voluptates
                         aperiam
@@ -130,14 +136,14 @@
                 </section>
             </section>
 
-            <section>
-                <section>
+            <section class="section-container">
+                <section class="feature-image-container">
                     <a href="https://opengameart.org/content/lots-of-free-2d-tiles-and-sprites-by-hyptosis">
-                        <img src="rat.png" alt="picture of a little standing rat" width="10%" height="10%" />
-                        <p style="font-size:x-small">image from opengameart.org</p>
+                        <img class="feature-image" src="rat.png" alt="picture of a little standing rat" />
+                        <p class="caption">image from opengameart.org</p>
                     </a>
                 </section>
-                <section>
+                <section class="feature-text-container">
                     <h4>Feature</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nulla omnis voluptates
                         aperiam
@@ -148,6 +154,7 @@
             </section>
 
         </section>
+
     </main>
 
     <footer>
