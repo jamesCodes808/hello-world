@@ -10,12 +10,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
 </head>
 
-<body>
+<body onload="changeGreeting(visitorName)">
 
-    <header>
-        <h1>Adventure Guy</h1>
+    <header id="header">
+        <h1 id="game-title">Adventure Guy</h1>
         <nav>
             <ul>
                 <li><a href="https://jamesCodes808.github.io/hello-world">Home</a></li>
@@ -39,7 +40,7 @@
             </section>
 
             <section id="hero-text-container">
-                <h2>Adventure Awaits!</h2>
+                <h2 class="greet-visitor">Adventure Awaits!</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis mollitia rem, aliquid in eligendi
                     tenetur maxime distinctio excepturi omnis blanditiis culpa quam et consequatur dicta neque officia
                     doloremque impedit modi!</p>
@@ -161,6 +162,7 @@
         <hr>
         <p>&copy; James Ian Solima</p>
     </footer>
+
 
 </body>
 
