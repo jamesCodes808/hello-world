@@ -1,7 +1,6 @@
 
 let visitorName = "Visitor";
 
-
 function greetUser() {
     let name = prompt('Welcome! What is your name adventurer?');
 
