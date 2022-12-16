@@ -33,7 +33,7 @@ function howManyLives() {
             "<img width='30px' height='30px' src='https://orig04.deviantart.net/253e/f/2015/073/1/b/pink_pixel_heart_gif_by_kerostudio-d8fohut.gif' alt='pixel hearts'/>"
         );
     };
-}
+};
 
 function changeGreeting(name) {
     const heroTextContainer = document.getElementById('hero-text-container');
